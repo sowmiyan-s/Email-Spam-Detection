@@ -27,7 +27,6 @@ if st.button("Predict", use_container_width=True):
             st.success("This email is NOT SPAM")
             st.balloons()
 
-        st.divider()
     else:
         st.write("Please enter some text.")
 
@@ -42,40 +41,35 @@ button {
 
 /* GitHub deep link button styling */
 a[data-testid="stLinkButton"] {
-    text-decoration: none;
-    width: 100%;
-}
-
-a[data-testid="stLinkButton"] > button {
-    background-color: #0366d6; /* GitHub Blue */
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 0.6em 1.2em;
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid #0366d6;
-    transition: background-color 0.2s, border-color 0.2s;
+    text-decoration: none !important;
     width: 100% !important;
-    box-shadow: none !important;
 }
 
-/* Attractive hover effect */
-a[data-testid="stLinkButton"] > button:hover {
-    background-color: #0056b3 !important;
-    border-color: #0056b3 !important;
+a[data-testid="stLinkButton"] p {
     color: #ffffff !important;
 }
 
+a[data-testid="stLinkButton"] > div {
+    background-color: #0366d6 !important;
+    border: 1px solid #0366d6 !important;
+    border-radius: 8px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Attractive hover effect */
+a[data-testid="stLinkButton"]:hover > div {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+}
+
 /* Click effect */
-a[data-testid="stLinkButton"] > button:active {
+a[data-testid="stLinkButton"]:active > div {
     background-color: #004085 !important;
-    transform: translateY(1px);
+    transform: translateY(1px) !important;
 }
 </style>
 """, unsafe_allow_html=True)
 
 
-st.link_button("View on GitHub", "https://github.com/username/repo", use_container_width=True)
-st.caption(" Machine Learning Project With Support Vector Machine(SVM)")
-
+st.link_button("View on GitHub", "https://github.com/sowmiyan-s/Email-Spam-Detection", use_container_width=True)
 
