@@ -11,12 +11,19 @@ pinned: false
 
 # 🛡️ Email Spam Detection System
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/sowmiyan-s/Email-Spam-Detection)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://email-spam-detection-sowmiyan-s.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An advanced machine learning solution designed to classify emails as **Spam** or **Ham** (Legitimate) with high precision using Support Vector Machines (SVM).
+
+## 🌐 Live Demo
+- **Hugging Face Spaces:** [🚀 View App](https://huggingface.co/spaces/sowmiyan-s/Email-Spam-Detection)
+- **Streamlit Cloud:** [⚡ Try Online](https://email-spam-detection-sowmiyan-s.streamlit.app/)
+
 
 ---
 
