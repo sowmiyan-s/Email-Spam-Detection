@@ -1,8 +1,8 @@
 import streamlit as st
 import joblib
 import time
-model = joblib.load("model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("models/model.pkl")
+vectorizer = joblib.load("models/vectorizer.pkl")
 
 st.title("Email Spam Detector")
 st.caption("Determine if your message from email is safe or suspicious in seconds.")

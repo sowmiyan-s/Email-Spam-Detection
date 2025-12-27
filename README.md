@@ -1,3 +1,14 @@
+---
+title: Email Spam Detection
+emoji: 🛡️
+colorFrom: blue
+colorTo: red
+sdk: streamlit
+sdk_version: 1.41.1
+app_file: app.py
+pinned: false
+---
+
 # 🛡️ Email Spam Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
@@ -35,8 +46,8 @@ This project provides a robust end-to-end workflow for detecting fraudulent or u
 ## 📂 Project Structure
 
 ```text
-├── App.py                  # Main Streamlit web application
-├── Final_Spam_Detector.py  # Linear workflow Python script (best for terminal)
+├── app.py                  # Main Streamlit web application
+├── Spam_Detector.py        # Linear workflow Python script (best for terminal)
 ├── spam.csv                # Cleaned dataset for training/testing
 ├── model.pkl               # Pre-trained SVM Model
 ├── vectorizer.pkl          # Multi-feature TF-IDF Vectorizer
@@ -61,11 +72,11 @@ pip install streamlit scikit-learn pandas joblib scipy
 ### 3. Run the Applications
 *   **To use the Web Dashboard:**
     ```bash
-    streamlit run App.py
+    streamlit run app.py
     ```
 *   **To run via Terminal:**
     ```bash
-    python Final_Spam_Detector.py
+    python Spam_Detector.py
     ```
 
 ---
