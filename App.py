@@ -47,13 +47,13 @@ a[data-testid="stLinkButton"] {
 }
 
 a[data-testid="stLinkButton"] > button {
-    background-color: #0d1117; /* GitHub Darker theme */
-    color: #c9d1d9;
+    background-color: #0366d6; /* GitHub Blue */
+    color: #ffffff;
     border-radius: 8px;
     padding: 0.6em 1.2em;
     font-size: 14px;
     font-weight: 500;
-    border: 1px solid #30363d;
+    border: 1px solid #0366d6;
     transition: background-color 0.2s, border-color 0.2s;
     width: 100% !important;
     box-shadow: none !important;
@@ -61,14 +61,14 @@ a[data-testid="stLinkButton"] > button {
 
 /* Attractive hover effect */
 a[data-testid="stLinkButton"] > button:hover {
-    background-color: #161b22 !important;
-    border-color: #8b949e !important;
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
     color: #ffffff !important;
 }
 
 /* Click effect */
 a[data-testid="stLinkButton"] > button:active {
-    background-color: #0d1117 !important;
+    background-color: #004085 !important;
     transform: translateY(1px);
 }
 </style>
